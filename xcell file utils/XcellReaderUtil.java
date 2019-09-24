@@ -5,10 +5,13 @@ static Sheet sheet;
 //in your PageTest.java
 // pass the sheet name, e.g. String sheetName = "contacts";
 //@DataProvider
-//public Object[][] getCRMTestData(){
+//public Object[][] getTestData(){
 //        Object data[][] = TestUtil.getTestData(sheetName);
 //        return data;
 //        }
+//@Test(priority=4, dataProvider="getTestData")
+//public void YourMethod(your params){
+// //        }
 
 public static Object[][] getTestData(String sheetName) {
         FileInputStream file = null;
